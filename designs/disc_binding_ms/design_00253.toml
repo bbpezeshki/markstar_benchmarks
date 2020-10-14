@@ -1,0 +1,27 @@
+molecule = "4u3s_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "B29", "B184",]
+strand0 = [ "A2", "A168",]
+
+[strand_mutations.strand1]
+B173 = [ "VAL",]
+B170 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+B144 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+B142 = [ "LYS",]
+B141 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+B140 = [ "ILE",]
+B165 = [ "ILE",]
+B167 = [ "LEU",]
+B137 = [ "ILE",]
+B171 = [ "MET",]
+B138 = [ "LEU",]
+B174 = [ "ALA",]
+
+[strand_mutations.strand0]
+A79 = [ "GLN",]
+A77 = [ "ILE",]
+A99 = [ "ASP",]
+A98 = [ "LEU",]
+A97 = [ "ALA",]
+A96 = [ "THR",]

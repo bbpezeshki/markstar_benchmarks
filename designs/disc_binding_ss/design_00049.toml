@@ -1,0 +1,22 @@
+molecule = "2hnv_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "B7", "B87",]
+strand0 = [ "A7", "A87",]
+
+[strand_mutations.strand1]
+B72 = [ "ILE",]
+B74 = [ "CYX",]
+B28 = [ "CYX",]
+B34 = [ "CYX",]
+B79 = [ "CYX",]
+B36 = [ "VAL",]
+B68 = [ "ALA",]
+B81 = [ "GLU",]
+B26 = [ "ILE",]
+B69 = [ "ALA",]
+
+[strand_mutations.strand0]
+A25 = [ "SER",]
+A79 = [ "CYX",]
+A36 = [ "VAL",]

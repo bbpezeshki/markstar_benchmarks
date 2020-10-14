@@ -1,0 +1,21 @@
+molecule = "3u7y_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "G44", "G492",]
+strand0 = [ "H2", "H218",]
+
+[strand_mutations.strand1]
+G469 = [ "ARG",]
+G467 = [ "THR",]
+G456 = [ "ARG",]
+G457 = [ "ASP",]
+G455 = [ "THR",]
+G362 = [ "GLN",]
+G365 = [ "SER",]
+
+[strand_mutations.strand0]
+H61 = [ "ARG",]
+H57 = [ "VAL",]
+H58 = [ "ASN",]
+H59 = [ "TYR",]
+H64 = [ "GLN",]

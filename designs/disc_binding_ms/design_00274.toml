@@ -1,0 +1,28 @@
+molecule = "3bu8_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "D257", "D266",]
+strand0 = [ "B43", "B249",]
+
+[strand_mutations.strand1]
+D260 = [ "LEU",]
+D261 = [ "ALA",]
+D266 = [ "ARG",]
+
+[strand_mutations.strand0]
+B118 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+B108 = [ "SER",]
+B111 = [ "GLU",]
+B76 = [ "PHE",]
+B77 = [ "ARG",]
+B81 = [ "ASP",]
+B80 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+B112 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+B64 = [ "ALA",]
+B84 = [ "GLN",]
+B104 = [ "MET",]
+B120 = [ "PHE",]
+B79 = [ "ILE",]
+B117 = [ "ASP",]
+B115 = [ "ASN",]
+B83 = [ "MET",]

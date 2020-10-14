@@ -1,0 +1,19 @@
+molecule = "3u7y_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "G44", "G492",]
+strand0 = [ "H2", "H218",]
+
+[strand_mutations.strand1]
+G365 = [ "SER",]
+
+[strand_mutations.strand0]
+H59 = [ "TYR",]
+H69 = [ "MET",]
+H68 = [ "THR",]
+H57 = [ "VAL",]
+H51 = [ "LEU",]
+H60 = [ "ALA",]
+H63 = [ "PHE",]
+H64 = [ "GLN",]
+H67 = [ "VAL",]

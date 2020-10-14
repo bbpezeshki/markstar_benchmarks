@@ -1,0 +1,23 @@
+molecule = "1gwc_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "B4", "B224",]
+strand0 = [ "C4", "C225",]
+
+[strand_mutations.strand1]
+B52 = [ "VAL",]
+B53 = [ "HIE",]
+
+[strand_mutations.strand0]
+C135 = [ "ALA",]
+C134 = [ "ALA",]
+C142 = [ "ALA",]
+C139 = [ "LEU",]
+C138 = [ "VAL",]
+C108 = [ "LYS",]
+C109 = [ "LEU",]
+C104 = [ "TYR",]
+C105 = [ "VAL",]
+C100 = [ "PHE",]
+C101 = [ "TRP",]
+C103 = [ "ALA",]

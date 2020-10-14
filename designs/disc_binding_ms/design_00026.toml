@@ -1,0 +1,15 @@
+molecule = "2hnu_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "B7", "B87",]
+strand0 = [ "A7", "A87",]
+
+[strand_mutations.strand1]
+B25 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+B37 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+B38 = [ "THR",]
+B36 = [ "VAL",]
+
+[strand_mutations.strand0]
+A81 = [ "GLU",]
+A72 = [ "ILE",]

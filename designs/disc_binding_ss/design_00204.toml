@@ -1,0 +1,20 @@
+molecule = "2q1e_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "D-1", "D107",]
+strand0 = [ "C-1", "C107",]
+
+[strand_mutations.strand1]
+D97 = [ "THR",]
+D27 = [ "GLN",]
+D26 = [ "SER",]
+D-1 = [ "ALA",]
+D3 = [ "GLN",]
+D0 = [ "THR",]
+D1 = [ "ASP",]
+
+[strand_mutations.strand0]
+C98 = [ "PHE",]
+C36 = [ "TYR",]
+C38 = [ "GLN",]
+C43 = [ "ALA",]

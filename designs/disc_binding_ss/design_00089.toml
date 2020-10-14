@@ -1,0 +1,22 @@
+molecule = "4znc_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "E238", "E444",]
+strand0 = [ "A5", "A57",]
+
+[strand_mutations.strand1]
+E253 = [ "ILE",]
+E311 = [ "GLN",]
+E310 = [ "HIE",]
+E256 = [ "THR",]
+E309 = [ "LEU",]
+
+[strand_mutations.strand0]
+A32 = [ "GLN",]
+A31 = [ "ILE",]
+A16 = [ "ILE",]
+A35 = [ "LYS",]
+A13 = [ "PHE",]
+A27 = [ "ARG",]
+A28 = [ "ASN",]
+A17 = [ "LEU",]

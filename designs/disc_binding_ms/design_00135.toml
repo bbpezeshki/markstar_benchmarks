@@ -1,0 +1,27 @@
+molecule = "2q1e_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "D-1", "D107",]
+strand0 = [ "C-1", "C107",]
+
+[strand_mutations.strand1]
+D98 = [ "PHE",]
+D38 = [ "GLN",]
+D89 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+D36 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+D37 = [ "GLN",]
+D34 = [ "ILE",]
+D96 = [ "TYR",]
+D90 = [ "GLN",]
+D33 = [ "LEU",]
+D91 = [ "TYR",]
+D87 = [ "HID",]
+D47 = [ "LEU",]
+D46 = [ "LEU",]
+D45 = [ "LYS",]
+
+[strand_mutations.strand0]
+C89 = [ "GLN",]
+C1 = [ "ASP",]
+C96 = [ "TYR",]
+C94 = [ "LEU",]

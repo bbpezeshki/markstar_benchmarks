@@ -1,0 +1,16 @@
+molecule = "2rf9_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "C336", "C362",]
+strand0 = [ "A675", "A959",]
+
+[strand_mutations.strand1]
+C348 = [ "PRO",]
+C349 = [ "THR",]
+C351 = [ "SER",]
+
+[strand_mutations.strand0]
+A894 = [ "ILE",]
+A907 = [ "GLU",]
+A902 = [ "ILE",]
+A891 = [ "TYR",]

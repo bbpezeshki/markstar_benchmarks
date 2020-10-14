@@ -1,0 +1,23 @@
+molecule = "3u7y_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "L3", "L210",]
+strand0 = [ "H2", "H218",]
+
+[strand_mutations.strand1]
+L87 = [ "GLN",]
+L42 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+L85 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+L40 = [ "GLN",]
+L83 = [ "VAL",]
+L92 = [ "PHE",]
+L41 = [ "ALA",]
+L36 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+L34 = [ "TYR",]
+L6 = [ "GLN",]
+
+[strand_mutations.strand0]
+H91 = [ "PHE",]
+H89 = [ "VAL",]
+H39 = [ "LEU",]
+H107 = [ "TRP",]

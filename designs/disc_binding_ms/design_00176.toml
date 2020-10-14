@@ -1,0 +1,17 @@
+molecule = "3cal_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "B655", "B672",]
+strand0 = [ "A63", "A151",]
+
+[strand_mutations.strand1]
+B671 = [ "THR",]
+B672 = [ "LYS",]
+
+[strand_mutations.strand0]
+A74 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+A69 = [ "LYS",]
+A65 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+A75 = [ "TYR",]
+A67 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+A63 = [ "ALA",]

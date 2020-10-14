@@ -1,0 +1,19 @@
+molecule = "3bua_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "G495", "G510",]
+strand0 = [ "C44", "C245",]
+
+[strand_mutations.strand1]
+G504 = [ "TYR",]
+G500 = [ "LEU",]
+G503 = [ "LYS",]
+
+[strand_mutations.strand0]
+C93 = [ "LYS",]
+C142 = [ "GLU",]
+C95 = [ "HIE",]
+C94 = [ "GLU",]
+C98 = [ "SER",]
+C101 = [ "LEU",]
+C102 = [ "ARG",]

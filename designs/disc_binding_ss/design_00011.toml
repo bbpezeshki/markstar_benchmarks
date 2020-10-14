@@ -1,0 +1,14 @@
+molecule = "3u7y_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "L3", "L210",]
+strand0 = [ "H2", "H218",]
+
+[strand_mutations.strand1]
+L117 = [ "SER",]
+L120 = [ "GLN",]
+L119 = [ "GLU",]
+
+[strand_mutations.strand0]
+H126 = [ "PHE",]
+H213 = [ "LYS",]

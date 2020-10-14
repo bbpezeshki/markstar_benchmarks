@@ -1,0 +1,15 @@
+molecule = "3ma2_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "B301", "B424",]
+strand0 = [ "A117", "A284",]
+
+[strand_mutations.strand1]
+B305 = [ "PRO",]
+B304 = [ "ALA",]
+B306 = [ "VAL",]
+
+[strand_mutations.strand0]
+A199 = [ "LEU",]
+A219 = [ "GLU",]
+A231 = [ "ASN",]

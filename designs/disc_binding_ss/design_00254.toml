@@ -1,0 +1,26 @@
+molecule = "4wyq_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "D269", "D391",]
+strand0 = [ "E289", "E363",]
+
+[strand_mutations.strand1]
+D349 = [ "PHE",]
+D346 = [ "PHE",]
+D345 = [ "LYS",]
+D342 = [ "LEU",]
+D341 = [ "GLU",]
+D282 = [ "PHE",]
+D286 = [ "CYS",]
+D288 = [ "ILE",]
+
+[strand_mutations.strand0]
+E326 = [ "LEU",]
+E324 = [ "GLN",]
+E336 = [ "VAL",]
+E338 = [ "HIE",]
+E328 = [ "GLU",]
+E312 = [ "LEU",]
+E316 = [ "GLU",]
+E315 = [ "GLU",]
+E314 = [ "ILE",]

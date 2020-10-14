@@ -1,0 +1,16 @@
+molecule = "4kt6_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "D1", "D161",]
+strand0 = [ "C193", "C446",]
+
+[strand_mutations.strand1]
+D147 = [ "GLN",]
+D146 = [ "TYR",]
+D148 = [ "ASP",]
+
+[strand_mutations.strand0]
+C431 = [ "HIE",]
+C429 = [ "GLY",]
+C297 = [ "GLU",]
+C426 = [ "ALA",]

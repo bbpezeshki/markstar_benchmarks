@@ -1,0 +1,15 @@
+molecule = "4wwi_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "E240", "E444",]
+strand0 = [ "B3", "B58",]
+
+[strand_mutations.strand1]
+E433 = [ "HIE",]
+E436 = [ "TYR",]
+E434 = [ "ASN",]
+
+[strand_mutations.strand0]
+B5 = [ "PHE",]
+B10 = [ "GLN",]
+B11 = [ "ASN",]

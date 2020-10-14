@@ -1,0 +1,16 @@
+molecule = "4kt6_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "B1", "B161",]
+strand0 = [ "A193", "A446",]
+
+[strand_mutations.strand1]
+B147 = [ "GLN",]
+B146 = [ "TYR",]
+B148 = [ "ASP",]
+
+[strand_mutations.strand0]
+A429 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+A431 = [ "HIE",]
+A297 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+A426 = [ "ALA",]

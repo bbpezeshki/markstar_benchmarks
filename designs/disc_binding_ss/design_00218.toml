@@ -1,0 +1,22 @@
+molecule = "3u7y_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "L3", "L210",]
+strand0 = [ "H2", "H218",]
+
+[strand_mutations.strand1]
+L166 = [ "ASP",]
+L170 = [ "SER",]
+L160 = [ "THR",]
+L131 = [ "LEU",]
+L133 = [ "ASN",]
+L134 = [ "ASN",]
+L112 = [ "PHE",]
+L110 = [ "SER",]
+
+[strand_mutations.strand0]
+H141 = [ "ALA",]
+H170 = [ "PHE",]
+H187 = [ "THR",]
+H168 = [ "HIE",]
+H185 = [ "VAL",]

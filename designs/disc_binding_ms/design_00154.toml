@@ -1,0 +1,26 @@
+molecule = "3rjq_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "B1", "B113",]
+strand0 = [ "A45", "A491",]
+
+[strand_mutations.strand1]
+B97 = [ "ARG",]
+B100 = [ "ARG",]
+B95 = [ "LYS",]
+B100A = [ "TYR",]
+B99 = [ "LEU",]
+
+[strand_mutations.strand0]
+A371 = [ "ILE",]
+A370 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+A373 = [ "THR",]
+A257 = [ "THR",]
+A384 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+A421 = [ "LYS",]
+A475 = [ "MET",]
+A368 = [ "ASP",]
+A369 = [ "LEU",]
+A419 = [ "LYS",]
+A420 = [ "ILE",]
+A382 = [ "PHE",]

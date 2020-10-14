@@ -1,0 +1,28 @@
+molecule = "3gxu_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "B30", "B172",]
+strand0 = [ "A1", "A175",]
+
+[strand_mutations.strand1]
+B123 = [ "ASN",]
+B125 = [ "TRP",]
+
+[strand_mutations.strand0]
+A33 = [ "ASP",]
+A31 = [ "ILE",]
+A34 = [ "GLU",]
+A76 = [ "THR",]
+A39 = [ "ILE",]
+A74 = [ "LYS",]
+A140 = [ "THR",]
+A136 = [ "MET",]
+A165 = [ "ALA",]
+A139 = [ "ASN",]
+A138 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+A167 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+A41 = [ "THR",]
+A9 = [ "ARG",]
+A168 = [ "SER",]
+A75 = [ "PHE",]
+A135 = [ "ILE",]

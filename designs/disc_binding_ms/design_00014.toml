@@ -1,0 +1,15 @@
+molecule = "2rfe_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "E337", "E362",]
+strand0 = [ "A677", "A978",]
+
+[strand_mutations.strand1]
+E339 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+E338 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+E341 = [ "TYR",]
+
+[strand_mutations.strand0]
+A911 = [ "GLN",]
+A956 = [ "VAL",]
+A915 = [ "CYS",]

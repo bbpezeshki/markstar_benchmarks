@@ -1,0 +1,22 @@
+molecule = "4wwi_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "F238", "F444",]
+strand0 = [ "E240", "E444",]
+
+[strand_mutations.strand1]
+F368 = [ "LEU",]
+F366 = [ "THR",]
+F407 = [ "TYR",]
+F351 = [ "LEU",]
+F409 = [ "LYS",]
+F394 = [ "THR",]
+
+[strand_mutations.strand0]
+E351 = [ "LEU",]
+E407 = [ "TYR",]
+E405 = [ "PHE",]
+E366 = [ "THR",]
+E364 = [ "SER",]
+E394 = [ "THR",]
+E409 = [ "LYS",]

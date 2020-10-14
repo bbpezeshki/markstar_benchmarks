@@ -1,0 +1,25 @@
+molecule = "3ma2_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "D115", "D285",]
+strand0 = [ "C301", "C424",]
+
+[strand_mutations.strand1]
+D189 = [ "SER",]
+D190 = [ "THR",]
+
+[strand_mutations.strand0]
+C333 = [ "THR",]
+C330 = [ "ASN",]
+C337 = [ "ARG",]
+C335 = [ "TYR",]
+C334 = [ "LEU",]
+C390 = [ "GLN",]
+C395 = [ "HIE",]
+C369 = [ "VAL",]
+C397 = [ "THR",]
+C364 = [ "PRO",]
+C366 = [ "MET",]
+C370 = [ "CYX",]
+C362 = [ "TYR",]
+C363 = [ "THR",]

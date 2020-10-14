@@ -1,0 +1,19 @@
+molecule = "2xxm_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "B4", "B113",]
+strand0 = [ "A146", "A218",]
+
+[strand_mutations.strand1]
+B52 = [ "ARG",]
+B56 = [ "SER",]
+B54 = [ "ASP",]
+B32 = [ "ASN",]
+B33 = [ "VAL",]
+
+[strand_mutations.strand0]
+A187 = [ "GLU",]
+A184 = [ "TRP",]
+A192 = [ "GLN",]
+A188 = [ "THR",]
+A189 = [ "LEU",]

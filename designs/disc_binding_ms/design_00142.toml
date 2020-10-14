@@ -1,0 +1,26 @@
+molecule = "4hem_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "G1", "G123",]
+strand0 = [ "A34", "A163",]
+
+[strand_mutations.strand1]
+G106 = [ "ARG",]
+G105 = [ "THR",]
+G37 = [ "PHE",]
+G38 = [ "ARG",]
+G63 = [ "SER",]
+G62 = [ "ASN",]
+G50 = [ "THR",]
+G46 = [ "GLU",]
+G47 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+G48 = [ "VAL",]
+G49 = [ "ALA",]
+G59 = [ "TYR",]
+G61 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+G60 = [ "TYR",]
+G64 = [ "VAL",]
+
+[strand_mutations.strand0]
+A95 = [ "SER",]
+A93 = [ "GLU",]

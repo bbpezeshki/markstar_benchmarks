@@ -1,0 +1,21 @@
+molecule = "3ma2_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "D115", "D285",]
+strand0 = [ "C301", "C424",]
+
+[strand_mutations.strand1]
+D202 = [ "ALA",]
+D203 = [ "TYR",]
+D204 = [ "PHE",]
+D189 = [ "SER",]
+D188 = [ "ASP",]
+D240 = [ "GLU",]
+D243 = [ "HIP",]
+D190 = [ "THR",]
+
+[strand_mutations.strand0]
+C366 = [ "MET",]
+C368 = [ "SER",]
+C369 = [ "VAL",]
+C334 = [ "LEU",]

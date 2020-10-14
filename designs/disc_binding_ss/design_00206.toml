@@ -1,0 +1,22 @@
+molecule = "5a6y_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "D1", "D114",]
+strand0 = [ "C1", "C114",]
+
+[strand_mutations.strand1]
+D101 = [ "ASP",]
+D103 = [ "ASN",]
+D104 = [ "ASP",]
+D106 = [ "VAL",]
+D21 = [ "ASN",]
+D108 = [ "VAL",]
+D22 = [ "SER",]
+D19 = [ "PHE",]
+D47 = [ "ASN",]
+
+[strand_mutations.strand0]
+C89 = [ "PHE",]
+C110 = [ "ASN",]
+C113 = [ "LEU",]
+C87 = [ "LEU",]

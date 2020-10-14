@@ -1,0 +1,22 @@
+molecule = "3k3q_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "B2", "B250",]
+strand0 = [ "C253", "C417",]
+
+[strand_mutations.strand1]
+B127 = [ "LEU",]
+
+[strand_mutations.strand0]
+C299 = [ "LYS",]
+C309 = [ "SER",]
+C311 = [ "GLN",]
+C310 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+C296 = [ "THR",]
+C297 = [ "LEU",]
+C302 = [ "SER",]
+C303 = [ "ILE",]
+C300 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+C301 = [ "LYS",]
+C314 = [ "LYS",]
+C313 = [ "MET",]

@@ -1,0 +1,18 @@
+molecule = "5dc0_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "B141", "B238",]
+strand0 = [ "A3", "A93",]
+
+[strand_mutations.strand1]
+B224 = [ "VAL",]
+B225 = [ "ALA",]
+B223 = [ "THR",]
+
+[strand_mutations.strand0]
+A14 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+A17 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+A16 = [ "THR",]
+A60 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+A62 = [ "LEU",]
+A58 = [ "THR",]

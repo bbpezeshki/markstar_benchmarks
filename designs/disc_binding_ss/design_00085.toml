@@ -1,0 +1,18 @@
+molecule = "4hem_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "B34", "B163",]
+strand0 = [ "A34", "A163",]
+
+[strand_mutations.strand1]
+B163 = [ "ASP",]
+B84 = [ "THR",]
+B116 = [ "ARG",]
+
+[strand_mutations.strand0]
+A82 = [ "LYS",]
+A80 = [ "ARG",]
+A87 = [ "GLU",]
+A64 = [ "THR",]
+A66 = [ "SER",]
+A157 = [ "THR",]

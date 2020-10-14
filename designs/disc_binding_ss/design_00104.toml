@@ -1,0 +1,22 @@
+molecule = "1a0r_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "B2", "B340",]
+strand0 = [ "P13", "P230",]
+
+[strand_mutations.strand1]
+B57 = [ "LYS",]
+B271 = [ "CYS",]
+B292 = [ "PHE",]
+B291 = [ "ASP",]
+B290 = [ "ASP",]
+B313 = [ "ASN",]
+
+[strand_mutations.strand0]
+P105 = [ "LEU",]
+P104 = [ "LYS",]
+P101 = [ "MET",]
+P13 = [ "PHE",]
+P14 = [ "GLU",]
+P20 = [ "THR",]
+P19 = [ "HID",]

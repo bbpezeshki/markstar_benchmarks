@@ -1,0 +1,15 @@
+molecule = "2xgy_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "B1", "B165",]
+strand0 = [ "A1", "A137",]
+
+[strand_mutations.strand1]
+B118 = [ "LYS",]
+B120 = [ "GLU",]
+B93 = [ "THR",]
+
+[strand_mutations.strand0]
+A119 = [ "ASP",]
+A118 = [ "ALA",]
+A116 = [ "ARG",]

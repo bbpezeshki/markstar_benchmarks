@@ -1,0 +1,20 @@
+molecule = "5em2_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "C432", "C801",]
+strand0 = [ "A432", "A801",]
+
+[strand_mutations.strand1]
+C702 = [ "ASP",]
+C700 = [ "TRP",]
+C706 = [ "SER",]
+C704 = [ "ASP",]
+C705 = [ "LEU",]
+C688 = [ "ASN",]
+C710 = [ "TYR",]
+C687 = [ "ASP",]
+C756 = [ "ASN",]
+
+[strand_mutations.strand0]
+A645 = [ "ARG",]
+A647 = [ "LEU",]

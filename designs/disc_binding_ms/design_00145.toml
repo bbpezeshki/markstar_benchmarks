@@ -1,0 +1,24 @@
+molecule = "5em2_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "D10", "D487",]
+strand0 = [ "C432", "C801",]
+
+[strand_mutations.strand1]
+D478 = [ "GLU",]
+D115 = [ "SER",]
+D112 = [ "ASP",]
+D113 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+D464 = [ "PHE",]
+D462 = [ "LYS",]
+D196 = [ "MET",]
+D151 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+D181 = [ "LYS",]
+D480 = [ "LYS",]
+D179 = [ "SER",]
+
+[strand_mutations.strand0]
+C481 = [ "GLU",]
+C488 = [ "VAL",]
+C484 = [ "THR",]
+C486 = [ "ARG",]

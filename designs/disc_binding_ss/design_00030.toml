@@ -1,0 +1,15 @@
+molecule = "2rfe_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "B679", "B988",]
+strand0 = [ "A677", "A978",]
+
+[strand_mutations.strand1]
+B950 = [ "ASP",]
+B949 = [ "ARG",]
+
+[strand_mutations.strand0]
+A825 = [ "GLN",]
+A826 = [ "HIE",]
+A823 = [ "THR",]
+A822 = [ "LYS",]

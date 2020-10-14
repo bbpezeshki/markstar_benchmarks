@@ -1,0 +1,22 @@
+molecule = "2rl0_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "J640", "J652",]
+strand0 = [ "I153", "I240",]
+
+[strand_mutations.strand1]
+J645 = [ "ASN",]
+J646 = [ "LEU",]
+J647 = [ "VAL",]
+
+[strand_mutations.strand0]
+I237 = [ "TRP",]
+I179 = [ "MET",]
+I180 = [ "VAL",]
+I178 = [ "MET",]
+I177 = [ "TRP",]
+I196 = [ "SER",]
+I199 = [ "ARG",]
+I201 = [ "ASN",]
+I203 = [ "GLN",]
+I208 = [ "SER",]

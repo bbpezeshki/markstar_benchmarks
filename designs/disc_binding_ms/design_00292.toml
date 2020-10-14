@@ -1,0 +1,26 @@
+molecule = "3eb6_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "B-1", "B147",]
+strand0 = [ "A541", "A604",]
+
+[strand_mutations.strand1]
+B60 = [ "TYR",]
+B98 = [ "THR",]
+B5 = [ "ARG",]
+B15 = [ "ARG",]
+B12 = [ "ASP",]
+B8 = [ "LYS",]
+B9 = [ "GLU",]
+
+[strand_mutations.strand0]
+A561 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+A552 = [ "GLN",]
+A546 = [ "GLU",]
+A550 = [ "ARG",]
+A553 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+A545 = [ "GLU",]
+A554 = [ "GLU",]
+A558 = [ "LYS",]
+A548 = [ "LEU",]
+A549 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]

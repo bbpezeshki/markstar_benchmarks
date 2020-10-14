@@ -1,0 +1,21 @@
+molecule = "2rl0_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "L639", "L655",]
+strand0 = [ "K153", "K241",]
+
+[strand_mutations.strand1]
+L649 = [ "PHE",]
+L651 = [ "GLU",]
+L653 = [ "SER",]
+
+[strand_mutations.strand0]
+K170 = [ "TRP",]
+K164 = [ "TYR",]
+K172 = [ "LYS",]
+K194 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+K180 = [ "VAL",]
+K192 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+K182 = [ "CYX",]
+K157 = [ "ASP",]
+K155 = [ "CYX",]

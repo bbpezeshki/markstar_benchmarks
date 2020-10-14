@@ -1,0 +1,19 @@
+molecule = "2xxm_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "T1", "T11",]
+strand0 = [ "A146", "A218",]
+
+[strand_mutations.strand1]
+T8 = [ "ASP",]
+T7 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+T4 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+T5 = [ "ASP",]
+T2 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+T3 = [ "PHE",]
+
+[strand_mutations.strand0]
+A187 = [ "GLU",]
+A173 = [ "ARG",]
+A183 = [ "ASN",]
+A179 = [ "GLN",]

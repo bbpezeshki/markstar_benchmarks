@@ -1,0 +1,23 @@
+molecule = "3k3q_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "B2", "B250",]
+strand0 = [ "C253", "C417",]
+
+[strand_mutations.strand1]
+B212 = [ "LYS",]
+B193 = [ "THR",]
+B214 = [ "ALA",]
+
+[strand_mutations.strand0]
+C415 = [ "LYS",]
+C412 = [ "ASN",]
+C404 = [ "GLN",]
+C410 = [ "ASN",]
+C406 = [ "THR",]
+C409 = [ "ASN",]
+C390 = [ "PHE",]
+C376 = [ "ILE",]
+C374 = [ "PHE",]
+C372 = [ "ALA",]
+C413 = [ "PHE",]

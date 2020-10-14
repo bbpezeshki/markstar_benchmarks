@@ -1,0 +1,28 @@
+molecule = "5d68_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "B288", "B736",]
+strand0 = [ "C288", "C729",]
+
+[strand_mutations.strand1]
+B421 = [ "LYS",]
+B452 = [ "ARG",]
+B435 = [ "GLU",]
+B432 = [ "ARG",]
+
+[strand_mutations.strand0]
+C729 = [ "LEU",]
+C699 = [ "ILE",]
+C724 = [ "LYS",]
+C725 = [ "LEU",]
+C726 = [ "ASN",]
+C720 = [ "LYS",]
+C722 = [ "LEU",]
+C723 = [ "MET",]
+C690 = [ "LEU",]
+C667 = [ "LEU",]
+C688 = [ "TRP",]
+C683 = [ "TYR",]
+C719 = [ "VAL",]
+C686 = [ "PHE",]
+C697 = [ "PHE",]

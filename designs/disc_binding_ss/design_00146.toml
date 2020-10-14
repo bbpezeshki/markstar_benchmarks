@@ -1,0 +1,24 @@
+molecule = "5em2_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "B10", "B487",]
+strand0 = [ "A432", "A801",]
+
+[strand_mutations.strand1]
+B181 = [ "LYS",]
+B179 = [ "SER",]
+B151 = [ "TYR",]
+B196 = [ "MET",]
+B112 = [ "ASP",]
+B113 = [ "TRP",]
+B115 = [ "SER",]
+B464 = [ "PHE",]
+B462 = [ "LYS",]
+B480 = [ "LYS",]
+B478 = [ "GLU",]
+
+[strand_mutations.strand0]
+A481 = [ "GLU",]
+A488 = [ "VAL",]
+A486 = [ "ARG",]
+A484 = [ "THR",]

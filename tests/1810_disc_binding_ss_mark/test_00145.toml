@@ -1,0 +1,11 @@
+[setup]
+wt_rotamers = true
+continuous = false
+rotamer_datafile = "resources/datafiles/LovellRotamer.dat"
+algorithm = "MARK* + BBK*"
+design = "disc_binding_ss/design_00145.toml"
+
+[results]
+"time (s)" = 39.868170000000006
+sequence = "(no mutable residues)"
+bounds_log10_kstar = [ "22.459708", "22.727615",]

@@ -1,0 +1,14 @@
+molecule = "4z80_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "C1293", "C1324",]
+strand0 = [ "A59", "A524",]
+
+[strand_mutations.strand1]
+C1303 = [ "GLU",]
+
+[strand_mutations.strand0]
+A184 = [ "SER",]
+A183 = [ "THR",]
+A180 = [ "HID",]
+A181 = [ "SER",]

@@ -1,0 +1,15 @@
+molecule = "5dc0_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "B141", "B238",]
+strand0 = [ "A3", "A93",]
+
+[strand_mutations.strand1]
+B165 = [ "ASN",]
+B230 = [ "THR",]
+B187 = [ "GLU",]
+B186 = [ "TYR",]
+
+[strand_mutations.strand0]
+A53 = [ "SER",]
+A54 = [ "LYS",]

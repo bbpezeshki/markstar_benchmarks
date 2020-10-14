@@ -1,0 +1,16 @@
+molecule = "4hem_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "C33", "C163",]
+strand0 = [ "A34", "A163",]
+
+[strand_mutations.strand1]
+C129 = [ "TRP",]
+
+[strand_mutations.strand0]
+A146 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+A147 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+A144 = [ "TRP",]
+A132 = [ "PHE",]
+A148 = [ "THR",]
+A149 = [ "ALA",]

@@ -1,0 +1,21 @@
+molecule = "5dc4_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "B4", "B95",]
+strand0 = [ "A140", "A239",]
+
+[strand_mutations.strand1]
+B51 = [ "GLU",]
+B75 = [ "TYR",]
+B77 = [ "TYR",]
+B35 = [ "VAL",]
+B37 = [ "THR",]
+B49 = [ "GLU",]
+B31 = [ "VAL",]
+B32 = [ "ASP",]
+B33 = [ "TYR",]
+
+[strand_mutations.strand0]
+A164 = [ "ILE",]
+A165 = [ "ASN",]
+A234 = [ "TYR",]

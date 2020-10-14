@@ -1,0 +1,15 @@
+molecule = "3cal_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "B655", "B672",]
+strand0 = [ "A63", "A151",]
+
+[strand_mutations.strand1]
+B672 = [ "LYS",]
+
+[strand_mutations.strand0]
+A65 = [ "THR",]
+A75 = [ "TYR",]
+A74 = [ "THR",]
+A67 = [ "PHE",]
+A63 = [ "ALA",]

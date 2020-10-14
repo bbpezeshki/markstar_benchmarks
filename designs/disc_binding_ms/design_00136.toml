@@ -1,0 +1,25 @@
+molecule = "4znc_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "F240", "F444",]
+strand0 = [ "E238", "E444",]
+
+[strand_mutations.strand1]
+F407 = [ "TYR",]
+F392 = [ "ASN",]
+F390 = [ "ASN",]
+F409 = [ "LYS",]
+F411 = [ "THR",]
+F394 = [ "THR",]
+
+[strand_mutations.strand0]
+E368 = [ "LEU",]
+E407 = [ "TYR",]
+E406 = [ "LEU",]
+E405 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+E403 = [ "SER",]
+E401 = [ "ASP",]
+E400 = [ "SER",]
+E399 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+E370 = [ "LYS",]
+E372 = [ "PHE",]

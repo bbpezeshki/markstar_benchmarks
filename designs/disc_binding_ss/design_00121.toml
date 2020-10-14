@@ -1,0 +1,27 @@
+molecule = "1b6c_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "D175", "D500",]
+strand0 = [ "C1", "C107",]
+
+[strand_mutations.strand1]
+D196 = [ "LEU",]
+D195 = [ "LEU",]
+
+[strand_mutations.strand0]
+C56 = [ "ILE",]
+C82 = [ "TYR",]
+C90 = [ "ILE",]
+C26 = [ "TYR",]
+C81 = [ "ALA",]
+C99 = [ "PHE",]
+C29 = [ "MET",]
+C74 = [ "LEU",]
+C59 = [ "TRP",]
+C76 = [ "ILE",]
+C101 = [ "VAL",]
+C97 = [ "LEU",]
+C37 = [ "ASP",]
+C36 = [ "PHE",]
+C30 = [ "LEU",]
+C91 = [ "ILE",]

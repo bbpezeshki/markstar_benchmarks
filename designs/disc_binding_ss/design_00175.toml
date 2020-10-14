@@ -1,0 +1,20 @@
+molecule = "2rf9_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "D337", "D362",]
+strand0 = [ "B677", "B961",]
+
+[strand_mutations.strand1]
+D346 = [ "MET",]
+D345 = [ "ALA",]
+D342 = [ "ALA",]
+D341 = [ "TYR",]
+D340 = [ "ALA",]
+D338 = [ "LEU",]
+D339 = [ "PRO",]
+
+[strand_mutations.strand0]
+B911 = [ "GLN",]
+B956 = [ "VAL",]
+B915 = [ "CYS",]
+B916 = [ "THR",]

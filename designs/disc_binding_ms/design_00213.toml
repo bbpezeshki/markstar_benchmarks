@@ -1,0 +1,23 @@
+molecule = "3ma2_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "B301", "B424",]
+strand0 = [ "A117", "A284",]
+
+[strand_mutations.strand1]
+B397 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+B395 = [ "HIE",]
+B400 = [ "SER",]
+B370 = [ "CYX",]
+B363 = [ "THR",]
+B398 = [ "LEU",]
+B399 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+B301 = [ "CYX",]
+B303 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+B304 = [ "ALA",]
+B306 = [ "VAL",]
+
+[strand_mutations.strand0]
+A198 = [ "PHE",]
+A193 = [ "ASP",]
+A260 = [ "PHE",]

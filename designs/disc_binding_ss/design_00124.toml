@@ -1,0 +1,23 @@
+molecule = "4z80_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "B59", "B524",]
+strand0 = [ "A59", "A524",]
+
+[strand_mutations.strand1]
+B63 = [ "SER",]
+B61 = [ "SER",]
+B60 = [ "THR",]
+B67 = [ "TYR",]
+B64 = [ "ARG",]
+B514 = [ "SER",]
+B515 = [ "ILE",]
+B516 = [ "ALA",]
+B68 = [ "MET",]
+B513 = [ "ASP",]
+B59 = [ "SER",]
+
+[strand_mutations.strand0]
+A403 = [ "LYS",]
+A466 = [ "ASN",]
+A469 = [ "GLU",]

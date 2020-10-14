@@ -1,0 +1,20 @@
+molecule = "2p4a_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "D1", "D121",]
+strand0 = [ "C1", "C124",]
+
+[strand_mutations.strand1]
+D101 = [ "ASP",]
+D102 = [ "ALA",]
+D104 = [ "VAL",]
+D107 = [ "ARG",]
+D106 = [ "THR",]
+
+[strand_mutations.strand0]
+C69 = [ "GLN",]
+C71 = [ "ASN",]
+C67 = [ "ASN",]
+C70 = [ "THR",]
+C115 = [ "TYR",]
+C111 = [ "GLU",]

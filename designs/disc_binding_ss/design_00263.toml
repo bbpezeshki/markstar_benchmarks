@@ -1,0 +1,25 @@
+molecule = "2rl0_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "F153", "F241",]
+strand0 = [ "H639", "H655",]
+
+[strand_mutations.strand1]
+F194 = [ "CYX",]
+F184 = [ "CYX",]
+F154 = [ "LYS",]
+F155 = [ "CYX",]
+F192 = [ "ILE",]
+F157 = [ "ASP",]
+F180 = [ "VAL",]
+F172 = [ "LYS",]
+F164 = [ "TYR",]
+F170 = [ "TRP",]
+F156 = [ "PHE",]
+F193 = [ "THR",]
+F182 = [ "CYX",]
+
+[strand_mutations.strand0]
+H651 = [ "GLU",]
+H653 = [ "SER",]
+H649 = [ "PHE",]

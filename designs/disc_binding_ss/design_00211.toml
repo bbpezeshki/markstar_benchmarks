@@ -1,0 +1,20 @@
+molecule = "1a0r_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "G2", "G66",]
+strand0 = [ "B2", "B340",]
+
+[strand_mutations.strand1]
+G16 = [ "LYS",]
+G15 = [ "LEU",]
+G19 = [ "VAL",]
+G12 = [ "LYS",]
+G11 = [ "GLU",]
+
+[strand_mutations.strand0]
+B4 = [ "LEU",]
+B5 = [ "ASP",]
+B7 = [ "LEU",]
+B2 = [ "SER",]
+B3 = [ "GLU",]
+B8 = [ "ARG",]

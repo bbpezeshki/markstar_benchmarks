@@ -1,0 +1,22 @@
+molecule = "3rjq_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "B1", "B113",]
+strand0 = [ "A45", "A491",]
+
+[strand_mutations.strand1]
+B100H = [ "SER",]
+B100I = [ "ASP",]
+B100J = [ "TYR",]
+B97 = [ "ARG",]
+B101 = [ "TYR",]
+B95 = [ "LYS",]
+B32 = [ "TYR",]
+B100G = [ "ASN",]
+B100F = [ "SER",]
+B33 = [ "ASP",]
+
+[strand_mutations.strand0]
+A371 = [ "ILE",]
+A370 = [ "GLU",]
+A368 = [ "ASP",]

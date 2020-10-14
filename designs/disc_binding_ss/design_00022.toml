@@ -1,0 +1,15 @@
+molecule = "2rl0_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "D153", "D241",]
+strand0 = [ "E639", "E654",]
+
+[strand_mutations.strand1]
+D241 = [ "ALA",]
+D240 = [ "GLU",]
+D238 = [ "LYS",]
+
+[strand_mutations.strand0]
+E640 = [ "VAL",]
+E642 = [ "THR",]
+E639 = [ "GLN",]

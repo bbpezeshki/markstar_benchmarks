@@ -1,0 +1,23 @@
+molecule = "4wyu_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "B3", "B203",]
+strand0 = [ "A3", "A203",]
+
+[strand_mutations.strand1]
+B71 = [ "VAL",]
+B72 = [ "ASN",]
+B74 = [ "GLN",]
+B98 = [ "LEU",]
+B96 = [ "SER",]
+B94 = [ "GLU",]
+B95 = [ "LEU",]
+B92 = [ "CYS",]
+B90 = [ "ARG",]
+B16 = [ "ARG",]
+B14 = [ "GLU",]
+
+[strand_mutations.strand0]
+A12 = [ "VAL",]
+A7 = [ "GLU",]
+A6 = [ "LEU",]

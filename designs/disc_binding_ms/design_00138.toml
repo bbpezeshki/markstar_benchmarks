@@ -1,0 +1,27 @@
+molecule = "4z80_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "C1293", "C1324",]
+strand0 = [ "A59", "A524",]
+
+[strand_mutations.strand1]
+C1298 = [ "SER",]
+C1299 = [ "SER",]
+C1310 = [ "MET",]
+C1296 = [ "ASN",]
+C1301 = [ "ALA",]
+
+[strand_mutations.strand0]
+A317 = [ "CYX",]
+A318 = [ "TRP",]
+A327 = [ "PHE",]
+A177 = [ "VAL",]
+A210 = [ "LEU",]
+A321 = [ "LYS",]
+A209 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+A319 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+A205 = [ "MET",]
+A272 = [ "TYR",]
+A206 = [ "TYR",]
+A180 = [ "HID",]
+A178 = [ "MET",]

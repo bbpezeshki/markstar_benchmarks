@@ -1,0 +1,22 @@
+molecule = "3bua_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "G495", "G510",]
+strand0 = [ "C44", "C245",]
+
+[strand_mutations.strand1]
+G505 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+G507 = [ "THR",]
+G501 = [ "ALA",]
+G502 = [ "LEU",]
+G510 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+G509 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+
+[strand_mutations.strand0]
+C84 = [ "GLN",]
+C109 = [ "ARG",]
+C119 = [ "SER",]
+C118 = [ "CYS",]
+C122 = [ "MET",]
+C120 = [ "PHE",]
+C124 = [ "ALA",]

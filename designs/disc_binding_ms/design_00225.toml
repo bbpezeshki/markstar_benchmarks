@@ -1,0 +1,24 @@
+molecule = "2p4a_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "D1", "D121",]
+strand0 = [ "C1", "C124",]
+
+[strand_mutations.strand1]
+D101 = [ "ASP",]
+D107 = [ "ARG",]
+
+[strand_mutations.strand0]
+C118 = [ "VAL",]
+C69 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+C71 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+C67 = [ "ASN",]
+C73 = [ "TYR",]
+C65 = [ "CYX",]
+C59 = [ "SER",]
+C58 = [ "CYX",]
+C109 = [ "ALA",]
+C70 = [ "THR",]
+C115 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+C111 = [ "GLU",]
+C110 = [ "CYX",]

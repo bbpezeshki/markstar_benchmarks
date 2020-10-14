@@ -1,0 +1,28 @@
+molecule = "3cal_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "D655", "D672",]
+strand0 = [ "C63", "C151",]
+
+[strand_mutations.strand1]
+D667 = [ "THR",]
+D669 = [ "GLU",]
+D671 = [ "THR",]
+
+[strand_mutations.strand0]
+C81 = [ "TYR",]
+C83 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+C92 = [ "CYX",]
+C85 = [ "LYS",]
+C68 = [ "ASP",]
+C69 = [ "LYS",]
+C66 = [ "CYX",]
+C70 = [ "TYR",]
+C94 = [ "CYX",]
+C75 = [ "TYR",]
+C71 = [ "THR",]
+C90 = [ "TRP",]
+C95 = [ "ILE",]
+C104 = [ "CYX",]
+C102 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+C103 = [ "SER",]

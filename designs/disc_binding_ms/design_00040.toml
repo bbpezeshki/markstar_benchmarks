@@ -1,0 +1,16 @@
+molecule = "4wwi_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "D238", "D444",]
+strand0 = [ "C4", "C58",]
+
+[strand_mutations.strand1]
+D434 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+D436 = [ "TYR",]
+D433 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+
+[strand_mutations.strand0]
+C11 = [ "ASN",]
+C10 = [ "GLN",]
+C7 = [ "LYS",]
+C5 = [ "PHE",]

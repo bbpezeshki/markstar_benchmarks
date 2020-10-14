@@ -1,0 +1,26 @@
+molecule = "3bua_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "B44", "B245",]
+strand0 = [ "A44", "A245",]
+
+[strand_mutations.strand1]
+B82 = [ "ILE",]
+B52 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+B56 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+B51 = [ "ALA",]
+B49 = [ "GLU",]
+B48 = [ "LEU",]
+B86 = [ "LEU",]
+B53 = [ "ASN",]
+
+[strand_mutations.strand0]
+A82 = [ "ILE",]
+A240 = [ "ALA",]
+A60 = [ "TYR",]
+A237 = [ "LEU",]
+A236 = [ "LEU",]
+A52 = [ "VAL",]
+A56 = [ "VAL",]
+A59 = [ "PHE",]
+A239 = [ "MET",]
