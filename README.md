@@ -1,6 +1,6 @@
 # MARK\* Benchmark tests
 
-Benchmark tests for the MARK\* protein design algorithm.
+Benchmark tests for the MARK\* protein design algorithm developed by the Donald Lab.
 This repo contains design files that each specify a single protein design for binding affinity problem instance, along with test result files that describe algorithm performance on design problems.
 
 These design problems were procedurally generated using PyMOL and (currently) unreleased tools.

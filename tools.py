@@ -12,6 +12,20 @@ methods require a running OSPREY instance. This instance can be started with:
 #   0.0
 # Author
 #   Graham Holt
+#
+# Contact Info:
+#    Bruce Donald
+#    Duke University
+#    Department of Computer Science
+#    Levine Science Research Center (LSRC)
+#    Durham
+#    NC 27708-0129
+#    USA
+#    e-mail: www.cs.duke.edu/brd/
+#
+# <signature of Bruce Donald>, Mar 1, 2018
+# Bruce Donald, Professor of Computer Science
+#
 ##################################################
 
 ##################################################
