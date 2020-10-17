@@ -10,7 +10,7 @@ These design problems were procedurally generated using PyMOL and (currently) un
 Install OSPREY and the python TOML module.
 OSPREY ConfSpace objects can be generated from design files using methods in `tools.py`, after which designs can be run normally.
 
-##Repository structure
+## Repository structure
 
 * `tools.py`
 
