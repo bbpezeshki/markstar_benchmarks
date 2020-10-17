@@ -7,14 +7,15 @@ These design problems were procedurally generated using PyMOL and (currently) un
 
 ## Usage
 
-Install <span style-"font-variant:small-caps;">OSPREY</span> and the python TOML module.
-<span style-"font-variant:small-caps;">OSPREY</span> ConfSpace objects can be generated from design files using methods in `tools.py`, after which designs can be run normally.
+Install OSPREY and the python TOML module.
+OSPREY ConfSpace objects can be generated from design files using methods in `tools.py`, after which designs can be run normally.
 
 ##Repository structure
+
 * `tools.py`
 
 	A python module with methods for loading design files and computing energy matrices.
-	Requires the latest version of [<span style-"font-variant:small-caps;">OSPREY</span>](https://github.com/donaldlab/OSPREY3) and the [TOML python module](https://pypi.org/project/toml/).
+	Requires the latest version of [OSPREY](https://github.com/donaldlab/OSPREY3) and the [TOML python module](https://pypi.org/project/toml/).
 * `bin/`
 
 	Contains example scripts for running MARK\* on design problems.
