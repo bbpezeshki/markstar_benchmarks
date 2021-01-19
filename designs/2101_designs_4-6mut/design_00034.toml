@@ -1,0 +1,33 @@
+molecule = "3bu8_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "D257", "D266",]
+strand0 = [ "B43", "B249",]
+
+[strand_mutations.strand1]
+D259 = [ "ASN",]
+D258 = [ "PHE",]
+D260 = [ "LEU",]
+D266 = [ "ARG",]
+D261 = [ "ALA",]
+
+[strand_mutations.strand0]
+B118 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+B109 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+B108 = [ "SER",]
+B77 = [ "ARG",]
+B110 = [ "ILE",]
+B80 = [ "ARG",]
+B112 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+B131 = [ "SER",]
+B106 = [ "CYS",]
+B105 = [ "GLN",]
+B115 = [ "ASN",]
+B121 = [ "ASP",]
+B120 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+B135 = [ "VAL",]
+B132 = [ "ALA",]
+B111 = [ "GLU",]
+B129 = [ "LEU",]
+B117 = [ "ASP",]
+

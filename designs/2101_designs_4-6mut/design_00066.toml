@@ -1,0 +1,32 @@
+molecule = "3u7y_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "L3", "L210",]
+strand0 = [ "H2", "H218",]
+
+[strand_mutations.strand1]
+L159 = [ "VAL",]
+L169 = [ "TYR",]
+L168 = [ "THR",]
+L163 = [ "ASP",]
+L170 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+L161 = [ "GLU",]
+L160 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+L131 = [ "LEU",]
+L133 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+L134 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+L135 = [ "PHE",]
+L166 = [ "ASP",]
+L114 = [ "PHE",]
+L112 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+L110 = [ "SER",]
+
+[strand_mutations.strand0]
+H139 = [ "THR",]
+H170 = [ "PHE",]
+H185 = [ "VAL",]
+H141 = [ "ALA",]
+H140 = [ "ALA",]
+H187 = [ "THR",]
+H168 = [ "HIE",]
+

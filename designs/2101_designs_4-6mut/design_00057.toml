@@ -1,0 +1,31 @@
+molecule = "4wyu_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "B3", "B203",]
+strand0 = [ "A3", "A203",]
+
+[strand_mutations.strand1]
+B4 = [ "ALA",]
+B6 = [ "LEU",]
+B7 = [ "GLU",]
+B12 = [ "VAL",]
+
+[strand_mutations.strand0]
+A14 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+A16 = [ "ARG",]
+A69 = [ "LEU",]
+A12 = [ "VAL",]
+A74 = [ "GLN",]
+A72 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+A71 = [ "VAL",]
+A70 = [ "ALA",]
+A3 = [ "ALA",]
+A5 = [ "ALA",]
+A98 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+A6 = [ "LEU",]
+A95 = [ "LEU",]
+A94 = [ "GLU",]
+A96 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+A90 = [ "ARG",]
+A92 = [ "CYS",]
+

@@ -1,0 +1,33 @@
+molecule = "5dc4_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "B4", "B95",]
+strand0 = [ "A140", "A239",]
+
+[strand_mutations.strand1]
+B51 = [ "GLU",]
+B47 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+B73 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+B38 = [ "TYR",]
+B75 = [ "TYR",]
+B77 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+B35 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+B37 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+B49 = [ "GLU",]
+B31 = [ "VAL",]
+B32 = [ "ASP",]
+B33 = [ "TYR",]
+B71 = [ "THR",]
+B90 = [ "SER",]
+B41 = [ "THR",]
+
+[strand_mutations.strand0]
+A234 = [ "TYR",]
+A164 = [ "ILE",]
+A165 = [ "ASN",]
+A158 = [ "TYR",]
+A162 = [ "SER",]
+A185 = [ "ARG",]
+A239 = [ "ARG",]
+A161 = [ "SER",]
+

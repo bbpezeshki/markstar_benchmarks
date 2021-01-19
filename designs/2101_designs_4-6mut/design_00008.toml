@@ -1,0 +1,29 @@
+molecule = "5a6y_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "D1", "D114",]
+strand0 = [ "C1", "C114",]
+
+[strand_mutations.strand1]
+D103 = [ "ASN",]
+D17 = [ "THR",]
+D106 = [ "VAL",]
+D21 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+D108 = [ "VAL",]
+D19 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+D49 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+D52 = [ "SER",]
+D47 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+D46 = [ "ASN",]
+
+[strand_mutations.strand0]
+C54 = [ "VAL",]
+C52 = [ "SER",]
+C89 = [ "PHE",]
+C49 = [ "ILE",]
+C19 = [ "PHE",]
+C108 = [ "VAL",]
+C113 = [ "LEU",]
+C17 = [ "THR",]
+C110 = [ "ASN",]
+

@@ -1,0 +1,29 @@
+molecule = "2q2a_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "B11", "B251",]
+strand0 = [ "A11", "A251",]
+
+[strand_mutations.strand1]
+B154 = [ "PHE",]
+B166 = [ "ASN",]
+B159 = [ "VAL",]
+B163 = [ "GLU",]
+B162 = [ "MET",]
+
+[strand_mutations.strand0]
+A30 = [ "ALA",]
+A68 = [ "TRP",]
+A69 = [ "ASP",]
+A28 = [ "ASP",]
+A133 = [ "ASN",]
+A159 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+A158 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+A162 = [ "MET",]
+A154 = [ "PHE",]
+A155 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+A132 = [ "GLN",]
+A156 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+A182 = [ "TYR",]
+A161 = [ "ILE",]
+

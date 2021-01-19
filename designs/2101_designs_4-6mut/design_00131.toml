@@ -1,0 +1,31 @@
+molecule = "4wyq_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "D269", "D391",]
+strand0 = [ "E289", "E363",]
+
+[strand_mutations.strand1]
+D346 = [ "PHE",]
+D342 = [ "LEU",]
+D282 = [ "PHE",]
+D286 = [ "CYS",]
+D287 = [ "ASN",]
+D285 = [ "ASP",]
+D288 = [ "ILE",]
+D289 = [ "SER",]
+
+[strand_mutations.strand0]
+E326 = [ "LEU",]
+E324 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+E322 = [ "LEU",]
+E320 = [ "SER",]
+E344 = [ "ARG",]
+E319 = [ "LEU",]
+E318 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+E340 = [ "SER",]
+E312 = [ "LEU",]
+E317 = [ "LEU",]
+E316 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+E315 = [ "GLU",]
+E314 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+

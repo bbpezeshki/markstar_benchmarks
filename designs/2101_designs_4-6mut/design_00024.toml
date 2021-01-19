@@ -1,0 +1,27 @@
+molecule = "5dc4_prepped.pdb"
+
+[strand_definitions]
+strand1 = [ "B4", "B95",]
+strand0 = [ "A140", "A239",]
+
+[strand_mutations.strand1]
+B89 = [ "ILE",]
+B88 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+B47 = [ "TYR",]
+B51 = [ "GLU",]
+B75 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+B77 = [ "TYR",]
+B81 = [ "TYR",]
+B35 = [ "VAL",]
+B37 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+B49 = [ "ALA", "VAL", "LEU", "ILE", "PHE", "TYR", "TRP", "CYS", "MET", "SER", "THR", "LYS", "ARG", "HIP", "HIE", "HID", "ASP", "GLU", "ASN", "GLN", "GLY",]
+B87 = [ "SER",]
+B73 = [ "THR",]
+B90 = [ "SER",]
+
+[strand_mutations.strand0]
+A164 = [ "ILE",]
+A234 = [ "TYR",]
+A167 = [ "SER",]
+A162 = [ "SER",]
+
