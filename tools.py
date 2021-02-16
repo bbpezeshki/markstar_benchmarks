@@ -46,17 +46,28 @@ TEST = join(app_path, "tests")
 ##################################################
 # Classes / Functions
 ##################################################
-def load_confspaces(f, wt_rotamers=True, continuous=False):
+def load_confspaces(f, xtal_rotamers=True, continuous=False, force_wt=True):
     """Loads OSPREY ConfSpace objects from a TOML file.
+
+        OPTIONS:
+            xtal_rotamers:  if true, add the rotamers from the input pdb
+            continuous:     if true, set continuous rotamers
+            force_wt:       if true, always add the wild-type amino acid
 
     """
     config = toml.load(f)
     return loadd_confspaces(config,
-                           wt_rotamers=wt_rotamers,
-                           continuous=continuous)
+                           xtal_rotamers=xtal_rotamers,
+                           continuous=continuous,
+                           force_wt=force_wt)
 
-def loadd_confspaces(config, wt_rotamers=True, continuous=False):
+def loadd_confspaces(config, xtal_rotamers=True, continuous=False, force_wt=True):
     """Loads OSPREY ConfSpace objects from a config dictionary.
+
+        OPTIONS:
+            xtal_rotamers:  if true, add the rotamers from the input pdb
+            continuous:     if true, set continuous rotamers
+            force_wt:       if true, always add the wild-type amino acid
 
     """
     ffparams = osprey.ForcefieldParams()
@@ -66,15 +77,22 @@ def loadd_confspaces(config, wt_rotamers=True, continuous=False):
     if len(config["strand_definitions"]) > 2:
         exit()
 
+
     # Define the protein strand
     protein = osprey.Strand(mol,
                             templateLib=template_library,
                             residues=config["strand_definitions"]["strand0"]
                            )
     for resi, res_allowed in config["strand_mutations"]["strand0"].items():
+
+        # Add the osprey.WILD_TYPE object to the allowed residues if desired
+        if force_wt:
+            res_allowed.append(osprey.WILD_TYPE)
+
+        # Set the flexibility
         protein.flexibility[resi]\
-                .setLibraryRotamers(osprey.WILD_TYPE, *res_allowed)
-        if wt_rotamers:
+                .setLibraryRotamers(*res_allowed)
+        if xtal_rotamers:
             protein.flexibility[resi].addWildTypeRotamers()
         if continuous:
             protein.flexibility[resi].setContinuous()
@@ -85,9 +103,15 @@ def loadd_confspaces(config, wt_rotamers=True, continuous=False):
                            residues=config["strand_definitions"]["strand1"]
                           )
     for resi, res_allowed in config["strand_mutations"]["strand1"].items():
+
+        # Add the osprey.WILD_TYPE object to the allowed residues if desired
+        if force_wt:
+            res_allowed.append(osprey.WILD_TYPE)
+
+        # Set the flexibility
         ligand.flexibility[resi]\
-                .setLibraryRotamers(osprey.WILD_TYPE, *res_allowed)
-        if wt_rotamers:
+                .setLibraryRotamers(*res_allowed)
+        if xtal_rotamers:
             ligand.flexibility[resi].addWildTypeRotamers()
         if continuous:
             ligand.flexibility[resi].setContinuous()
