@@ -1,0 +1,7 @@
+python3 ./markstar.bbkstar.py                       --epsilon 1e-200 --num-solutions 1 --num-cores 4
+python3 ./markstar.bbkstar.py --omit-wt-amino-acids --epsilon 1e-200 --num-solutions 1 --num-cores 4
+python3 ./markstar.bbkstar.py                       --epsilon 1e-200 --num-solutions 5 --num-cores 4
+python3 ./markstar.bbkstar.py --omit-wt-amino-acids --epsilon 1e-200 --num-solutions 5 --num-cores 4
+
+python3 ./markstar.kstar.py                         --epsilon 1e-200 --num-cores 4
+python3 ./markstar.kstar.py   --omit-wt-amino-acids --epsilon 1e-200 --num-cores 4

@@ -33,15 +33,18 @@ methods require a running OSPREY instance. This instance can be started with:
 ##################################################
 import osprey
 import toml
-from os.path import join, dirname, abspath
+# from os.path import join, dirname, abspath
+from pathlib import Path
 import multiprocessing
 ##################################################
 # Globals
 ##################################################
-app_path = dirname(abspath(__file__))
-PDB = join(app_path, "resources/pdb")
-DESIGN = join(app_path, "designs")
-TEST = join(app_path, "tests")
+# app_path = dirname(abspath(__file__))
+# PDB = join(app_path, "resources/pdb")
+# DESIGN = join(app_path, "designs")
+# TEST = join(app_path, "tests")
+parent_directory = Path().absolute().parent;
+PDB = parent_directory / 'resources/pdb/';
 
 ##################################################
 # Classes / Functions
@@ -71,7 +74,7 @@ def loadd_confspaces(config, xtal_rotamers=True, continuous=False, force_wt=True
 
     """
     ffparams = osprey.ForcefieldParams()
-    mol = osprey.readPdb(join(PDB, config["molecule"]))
+    mol = osprey.readPdb(PDB / config["molecule"])
     template_library = osprey.TemplateLibrary(ffparams.forcefld)
     # Make sure we don't have 3 strands (some cfs files do)
     if len(config["strand_definitions"]) > 2:
@@ -92,7 +95,7 @@ def loadd_confspaces(config, xtal_rotamers=True, continuous=False, force_wt=True
         # Set the flexibility
         protein.flexibility[resi]\
                 .setLibraryRotamers(*res_allowed)
-        if xtal_rotamers:
+        if xtal_rotamers and force_wt:
             protein.flexibility[resi].addWildTypeRotamers()
         if continuous:
             protein.flexibility[resi].setContinuous()
@@ -111,7 +114,7 @@ def loadd_confspaces(config, xtal_rotamers=True, continuous=False, force_wt=True
         # Set the flexibility
         ligand.flexibility[resi]\
                 .setLibraryRotamers(*res_allowed)
-        if xtal_rotamers:
+        if xtal_rotamers and force_wt:
             ligand.flexibility[resi].addWildTypeRotamers()
         if continuous:
             ligand.flexibility[resi].setContinuous()
