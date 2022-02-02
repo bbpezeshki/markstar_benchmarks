@@ -1,0 +1,14 @@
+merlin:
+	E653=ser E654=thr D156=HIP D158=ARG 
+
+BBKstar:
+	D156=phe D158=ARG 
+
+Mismatching assignments (merlin/BBK*):
+	D156=HIP/phe
+	
+merlin Assignment
+4 0 0 1 0 2 13 3 13
+
+BBK* Assignment as Merlin Evidence:
+2 2 0 3 13
